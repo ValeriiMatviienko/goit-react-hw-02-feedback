@@ -1,0 +1,7 @@
+.section {
+  text-align: center;
+}
+
+.section:not(:last-child) {
+  margin-bottom: 50px;
+}

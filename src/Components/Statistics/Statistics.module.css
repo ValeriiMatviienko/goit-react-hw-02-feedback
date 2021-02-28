@@ -1,0 +1,29 @@
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.item {
+  border-radius: 30px;
+  padding: 10px;
+  min-width: 200px;
+
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.item:nth-child(4) {
+  margin-top: 5px;
+}
+
+.item:last-child {
+  margin-top: 5px;
+}
